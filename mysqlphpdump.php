@@ -1,11 +1,20 @@
 #!/usr/bin/php
 <?php
+/**
+ * Mysqlphpdump
+ *
+ * @author Bazilio <x.bazilio@gmail.com>
+ * @license http://bazilio.mit-license.org/
+ */
+
 $config = array(
+    // mysql server settings
     'db' => array(
         'host' => 'localhost',
         'user' => 'root',
         'pass' => 'mysqlpass'
     ),
+    // where to store backup
     'path' => '/home/bazilio/temp/mysql_dumps/db_backup'
 );
 
